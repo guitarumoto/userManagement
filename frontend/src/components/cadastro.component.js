@@ -61,7 +61,7 @@ export default class CadastrarUsuario extends Component {
       .catch(e => {
         console.log(e);
       });
-  }
+  };
 
   novoUsuario() {
     this.setState({

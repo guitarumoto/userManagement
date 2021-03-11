@@ -23,10 +23,6 @@ app.use(bodyParser.json());
 
 app.use(bodyParser.urlencoded({ extended: true }));
 
-app.get("/", (req, res) => {
-    res.json({message: "Teste pagina de cadastro de usuários."});
-});
-
 require("./src/routes/usuario.routes")(app);
 
 const PORT = process.env.PORT || 8080;
