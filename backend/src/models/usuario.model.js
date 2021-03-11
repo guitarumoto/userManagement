@@ -7,7 +7,7 @@ module.exports = (sequelize, Sequelize) => {
         type: Sequelize.DATE
       },
       foto:{
-        type: Sequelize.BLOB
+        type: Sequelize.STRING
       }
     });
   

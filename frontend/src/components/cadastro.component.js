@@ -20,6 +20,7 @@ export default class CadastrarUsuario extends Component {
     };
   }
 
+
   onChangeNome(e) {
     this.setState({
       nome: e.target.value
@@ -114,7 +115,7 @@ export default class CadastrarUsuario extends Component {
               <div className="form-group">
                 <label htmlFor="foto">Foto</label>
                 <input
-                  type="file"
+                  type="text"
                   className="form-control"
                   id="foto"
                   required
